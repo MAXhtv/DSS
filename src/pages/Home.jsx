@@ -13,7 +13,7 @@ export function Home(){
         <>
         <div>
             <h1>Dream's Stars Studios</h1>
-            <p style={{box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);}}>Os melhores beats fazem os melhores artistas</p>
+            <p style={{boxShadow: "3px 3px 5px rgba(0, 0, 0, 0.3)"}}>Os melhores beats fazem os melhores artistas</p>
             <button onClick={navigateToBeats} alt='tobeats'>BEATS</button>
             <ul>
                 <li>
