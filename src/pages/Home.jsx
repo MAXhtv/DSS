@@ -26,7 +26,7 @@ export function Home(){
                 </li>
             </ul>
             <div>
-                <img src={star2} alt="star2" height="130px" style={{position:"absolute", top:0, left:0}}/>
+                <img src={star2} alt="star2" height="130px" style={{position:"relative", top:0, left:0}}/>
                 <img src={lean} alt="lean" height="100px" style={{position: "relative", left: 300}}></img>
             </div>
         </div>
