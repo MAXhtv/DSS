@@ -13,11 +13,11 @@ export function Home(){
         <>
         <div>
             <h1>Dream's Stars Studios</h1>
-            <p>Os melhores beats fazem os melhores artistas</p>
+            <p style={{box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);}}>Os melhores beats fazem os melhores artistas</p>
             <button onClick={navigateToBeats} alt='tobeats'>BEATS</button>
             <ul>
                 <li>
-                    <Link to="https://open.spotify.com/artist/2n51dSfSVinTY6toamqHNz?si=SziWAkhqRh-OAvSs1XZtow" alt="yuziyprofile" style={{box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);}}>Perfil de Yuziyy</Link>
+                    <Link to="https://open.spotify.com/artist/2n51dSfSVinTY6toamqHNz?si=SziWAkhqRh-OAvSs1XZtow" alt="yuziyprofile">Perfil de Yuziyy</Link>
                 </li>
             </ul>
             <ul>
