@@ -13,7 +13,7 @@ export function Home(){
         <>
         <div>
             <h1>Dream's Stars Studios</h1>
-            <p style={{boxShadow: "3px 3px 5px rgba(0, 0, 0, 0.3)"}}>Os melhores beats fazem os melhores artistas</p>
+            <p style={{boxShadow: "3px 3px 5px rgba(0, 0, 0, 0.3)", padding: "15px", display: "inline-block", backgroundColor: "white", borderRadius: "5px"}}>Os melhores beats fazem os melhores artistas</p>
             <button onClick={navigateToBeats} alt='tobeats'>BEATS</button>
             <ul>
                 <li>
@@ -26,7 +26,7 @@ export function Home(){
                 </li>
             </ul>
             <div>
-                <img src={star2} alt="star2" height="130px" style={{position:"relative", top:0, left:0}}/>
+                <img src={star2} alt="star2" height="130px" style={{position:"absolute", top:0, left:0}}/>
                 <img src={lean} alt="lean" height="100px" style={{position: "relative", left: 300}}></img>
             </div>
         </div>
