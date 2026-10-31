@@ -9,12 +9,10 @@ import { Beats } from './pages/Beats'
 function App() {
   return (
     <>
-    <BrowserRouter>
     <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path='/beats' element={<Beats/>}/>
     </Routes>
-    </BrowserRouter>
     </>
   )
 }
