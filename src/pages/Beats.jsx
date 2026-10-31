@@ -11,11 +11,11 @@ export function Beats(){
             <p3>Solicitar beats</p3><br></br>
             <p1>@yuziyy_prod nas redes sociais</p1>
             <ul>
-                <p3>pack Trap</p3>
+                <p3>pack Trap: 10 beats R$10,00</p3>
                 <AudioPlayer audioSrc={sound}></AudioPlayer>
             </ul>
             <ul>
-                <p3>pack Boombap</p3>
+                <p3>pack Boombap: 10 beats R$20,00</p3>
                 <AudioPlayer audioSrc={sound2}>teste2</AudioPlayer>
                 
             </ul>
