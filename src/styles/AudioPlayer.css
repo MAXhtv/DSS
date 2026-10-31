@@ -1,0 +1,48 @@
+.player-card{
+    width: 20rem;
+    background-color: aliceblue;
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+
+input[type="range"]{
+    width: 50%;
+    height: 5px;
+    accent-color: #434343;
+    outline: none;
+}
+
+.track_duration{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.track_duration>p{
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(52, 100, 143);
+    margin: 0;
+}
+
+button{
+    width: 3rem;
+    height: 3rem;
+    font-weight: 34px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 5px auto 10px auto;
+}
+
+.oldsongfile{
+    position: relative;
+    border: none;
+    align-items: end;
+}
